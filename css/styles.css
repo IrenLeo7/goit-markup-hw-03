@@ -39,6 +39,9 @@ img {
     border: 1px solid #ECECEC
 
 }
+.nav.current {
+    color: var(--brand-color)
+}
 
 .header {
     padding-top: 32px;
@@ -56,8 +59,8 @@ img {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 215px;
-    margin-right: 215px;
+    margin-left: auto;
+    margin-right: auto;
  }
  .main-nav {
     display: flex;
@@ -88,6 +91,12 @@ img {
 }
 
 /* Navigation */
+
+.more {
+    margin-right: 50px;
+
+}
+
 .nav {
     font-weight: 500;
     font-size: 14px;
@@ -95,7 +104,6 @@ img {
     letter-spacing: 0.02em;
 
     color: var(--main-text-color);
-    margin-right: 50px;
 }
 
 
@@ -132,7 +140,6 @@ img {
     max-width: 1600px;
     text-align: center;
     height: 600px;
-    width: 1600px;
     padding: 200px 0px;
 
 }
@@ -186,13 +193,23 @@ img {
 
 .item-text {
     width: 270px;
-    margin-right: auto;
+    margin-right: 30px;
+}
+.item-text:last-child{
+    margin-right: 0px;
 }
 
 .features-text .item {
     width: 370px;
-    margin-right: auto;
 
+}
+
+.item {
+    margin-right: 30px;
+}
+
+.item:last-child {
+    margin-right: 0px;
 }
 
 .specifics {
@@ -201,6 +218,7 @@ img {
     line-height: 1.42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .text {
@@ -242,19 +260,20 @@ img {
 
 .features-employee {
     width: 270px;
-    margin-right: auto;
+    margin-right: 30px;
 
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.card-team {
-    margin-bottom: 30px;
+.features-employee:last-child {
+    margin-right: 0px;
 }
 
-.pfoto-team {
-margin-bottom: 30px;
+.card-team {
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 
@@ -279,9 +298,12 @@ background-color: #F5F4FA;
 /* Підвал */
 .footer-logo {
     color: var(--primary-wite-color);
-
+    margin-bottom: 20px;  
 }
 
+.logo .link {
+margin-bottom: 20px;
+}
 
 .footer {
     background-color: var(--background-color);
@@ -308,9 +330,11 @@ background-color: #F5F4FA;
 }
 
 .footer-link {
-    margin-top: 20px;
+    margin-bottom: 9px;
 }
-
+.item-logo {
+    margin-bottom: 20px;
+}
 
 /* Портфоліо */
 
