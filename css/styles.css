@@ -43,10 +43,9 @@ img {
     color: var(--brand-color)
 }
 
-.header {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+/* .header {
+   
+} */
 
 .body {
     background-color: var (--primary-wite-color);
@@ -84,6 +83,8 @@ img {
 
     color: var(--brand-color);
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo-name { 
@@ -94,6 +95,8 @@ img {
 
 .more {
     margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 
@@ -272,8 +275,8 @@ img {
 }
 
 .card-team {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 
